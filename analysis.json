@@ -1,0 +1,3227 @@
+{
+  "schema_version": "reader.v3",
+  "paper_id": "acm_10_1145_3653982",
+  "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+  "claim_pool": {
+    "claim_000001": {
+      "claim_id": "claim_000001",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P1",
+      "model_quote": "In the previous section, we observed that HydraGAN outperformed baseline methods when balancing five diverse data objectives.",
+      "source_quote": "In the previous section, we observed that HydraGAN outperformed baseline methods when balancing five diverse data objectives.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 125,
+          "exact": "In the previous section, we observed that HydraGAN outperformed baseline methods when balancing five diverse data objectives.",
+          "prefix": "",
+          "suffix": " Here, we investigate the impact of remo"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000002": {
+      "claim_id": "claim_000002",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P1",
+      "model_quote": "Here, we investigate the impact of removing individual discriminators on HydraGAN performance.",
+      "source_quote": "Here, we investigate the impact of removing individual discriminators on HydraGAN performance.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 126,
+          "end": 220,
+          "exact": "Here, we investigate the impact of removing individual discriminators on HydraGAN performance.",
+          "prefix": "balancing five diverse data objectives. ",
+          "suffix": " We hypothesize that the removal of a si"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000003": {
+      "claim_id": "claim_000003",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P1",
+      "model_quote": "We hypothesize that the removal of a single discriminator will lessen HydraGAN’s performance on the corresponding objective.",
+      "source_quote": "We hypothesize that the removal of a single discriminator will lessen HydraGAN’s performance on the corresponding objective.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 221,
+          "end": 345,
+          "exact": "We hypothesize that the removal of a single discriminator will lessen HydraGAN’s performance on the corresponding objective.",
+          "prefix": "discriminators on HydraGAN performance. ",
+          "suffix": " We analyze the impact of this removal o"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000004": {
+      "claim_id": "claim_000004",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P1",
+      "model_quote": "We analyze the impact of this removal on the remaining objectives and AuRC performance.",
+      "source_quote": "We analyze the impact of this removal on the remaining objectives and AuRC performance.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 346,
+          "end": 433,
+          "exact": "We analyze the impact of this removal on the remaining objectives and AuRC performance.",
+          "prefix": "ormance on the corresponding objective. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000005": {
+      "claim_id": "claim_000005",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P2",
+      "model_quote": "The results of the ablation study are visualized in Figure 4.",
+      "source_quote": "The results of the ablation study are visualized in Figure 4.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 61,
+          "exact": "The results of the ablation study are visualized in Figure 4.",
+          "prefix": "",
+          "suffix": " As expected, when a discriminator was r"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000006": {
+      "claim_id": "claim_000006",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P2",
+      "model_quote": "As expected, when a discriminator was removed from the system, performance for the corresponding objective decreased.",
+      "source_quote": "As expected, when a discriminator was removed from the system, performance for the corresponding objective decreased.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 62,
+          "end": 179,
+          "exact": "As expected, when a discriminator was removed from the system, performance for the corresponding objective decreased.",
+          "prefix": "ation study are visualized in Figure 4. ",
+          "suffix": " However, because HydraGAN balances mult"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000007": {
+      "claim_id": "claim_000007",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P2",
+      "model_quote": "However, because HydraGAN balances multiple objectives, performance for the remaining objectives correspondingly increased.",
+      "source_quote": "However, because HydraGAN balances multiple objectives, performance for the remaining objectives correspondingly increased.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 180,
+          "end": 303,
+          "exact": "However, because HydraGAN balances multiple objectives, performance for the remaining objectives correspondingly increased.",
+          "prefix": " the corresponding objective decreased. ",
+          "suffix": " Consistently, HydraGAN with all discrim"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000008": {
+      "claim_id": "claim_000008",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P2",
+      "model_quote": "Consistently, HydraGAN with all discriminators achieves the highest AuRC value of all variations.",
+      "source_quote": "Consistently, HydraGAN with all discriminators achieves the highest AuRC value of all variations.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 304,
+          "end": 401,
+          "exact": "Consistently, HydraGAN with all discriminators achieves the highest AuRC value of all variations.",
+          "prefix": "g objectives correspondingly increased. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000009": {
+      "claim_id": "claim_000009",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P3",
+      "model_quote": "These results support the hypothesis that HydraGAN can effectively combine input from all agents to optimize diverse objectives.",
+      "source_quote": "These results support the hypothesis that HydraGAN can effectively combine input from all agents to optimize diverse objectives.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 128,
+          "exact": "These results support the hypothesis that HydraGAN can effectively combine input from all agents to optimize diverse objectives.",
+          "prefix": "",
+          "suffix": " Additionally, the results indicate the "
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000010": {
+      "claim_id": "claim_000010",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P3",
+      "model_quote": "Additionally, the results indicate the desired relationship between the discriminator goals and the measures that are used to assess performance for that goal.",
+      "source_quote": "Additionally, the results indicate the desired relationship between the discriminator goals and the measures that are used to assess performance for that goal.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 129,
+          "end": 288,
+          "exact": "Additionally, the results indicate the desired relationship between the discriminator goals and the measures that are used to assess performance for that goal.",
+          "prefix": " agents to optimize diverse objectives. ",
+          "suffix": " The shape of the performance curve shif"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000011": {
+      "claim_id": "claim_000011",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P3",
+      "model_quote": "The shape of the performance curve shifts with these changes in the discriminator space.",
+      "source_quote": "The shape of the performance curve shifts with these changes in the discriminator space.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 289,
+          "end": 377,
+          "exact": "The shape of the performance curve shifts with these changes in the discriminator space.",
+          "prefix": "ed to assess performance for that goal. ",
+          "suffix": " Removal of a discriminator forces a col"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000012": {
+      "claim_id": "claim_000012",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P3",
+      "model_quote": "Removal of a discriminator forces a collapse in performance for the corresponding metric.",
+      "source_quote": "Removal of a discriminator forces a collapse in performance for the corresponding metric.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 378,
+          "end": 467,
+          "exact": "Removal of a discriminator forces a collapse in performance for the corresponding metric.",
+          "prefix": "ese changes in the discriminator space. ",
+          "suffix": " However, results from this analysis als"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000013": {
+      "claim_id": "claim_000013",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P3",
+      "model_quote": "However, results from this analysis also highlight the cooperative and competitive discriminator “teams.”",
+      "source_quote": "However, results from this analysis also highlight the cooperative and competitive discriminator “teams.”",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 468,
+          "end": 573,
+          "exact": "However, results from this analysis also highlight the cooperative and competitive discriminator “teams.”",
+          "prefix": "rformance for the corresponding metric. ",
+          "suffix": " Three cooperative discriminator groups "
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000014": {
+      "claim_id": "claim_000014",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P3",
+      "model_quote": "Three cooperative discriminator groups emerged: those that emphasize data realism (i.e., point and distribution realism, target accuracy), those that emphasize privacy preservation (i.e., privacy), and those that optimize externally imposed distribution constraints (i.e., diversity).",
+      "source_quote": "Three cooperative discriminator groups emerged: those that emphasize data realism (i.e., point and distribution realism, target accuracy), those that emphasize privacy preservation (i.e., privacy), and those that optimize externally imposed distribution constraints (i.e., diversity).",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 574,
+          "end": 858,
+          "exact": "Three cooperative discriminator groups emerged: those that emphasize data realism (i.e., point and distribution realism, target accuracy), those that emphasize privacy preservation (i.e., privacy), and those that optimize externally imposed distribution constraints (i.e., diversity).",
+          "prefix": " and competitive discriminator “teams.” ",
+          "suffix": " Removing any or all of the realism agen"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000015": {
+      "claim_id": "claim_000015",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-5-6.P3",
+      "model_quote": "Removing any or all of the realism agents allows the privacy performance to improve as well as data diversity, confirming the intuition that removing the need to generate realistic data makes it easier to obscure sensitive attributes and achieve diversity goals.",
+      "source_quote": "Removing any or all of the realism agents allows the privacy performance to improve as well as data diversity, confirming the intuition that removing the need to generate realistic data makes it easier to obscure sensitive attributes and achieve diversity goals.",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 859,
+          "end": 1121,
+          "exact": "Removing any or all of the realism agents allows the privacy performance to improve as well as data diversity, confirming the intuition that removing the need to generate realistic data makes it easier to obscure sensitive attributes and achieve diversity goals.",
+          "prefix": "ribution constraints (i.e., diversity). ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "8e040418f492"
+    },
+    "claim_000016": {
+      "claim_id": "claim_000016",
+      "type": "assertion",
+      "scope": "background",
+      "source_element_id": "S-sec-3-2-1.P1",
+      "model_quote": "The goal of a traditional GAN is to generate data points that individually cannot be discriminated from real data points.",
+      "source_quote": "The goal of a traditional GAN is to generate data points that individually cannot be discriminated from real data points.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 121,
+          "exact": "The goal of a traditional GAN is to generate data points that individually cannot be discriminated from real data points.",
+          "prefix": "",
+          "suffix": " In keeping with this goal, HydraGAN use"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000017": {
+      "claim_id": "claim_000017",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-1.P1",
+      "model_quote": "In keeping with this goal, HydraGAN uses a point discriminator to ensure that each sample within a generated batch is realistic.",
+      "source_quote": "In keeping with this goal, HydraGAN uses a point discriminator to ensure that each sample within a generated batch is realistic.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 122,
+          "end": 250,
+          "exact": "In keeping with this goal, HydraGAN uses a point discriminator to ensure that each sample within a generated batch is realistic.",
+          "prefix": "be discriminated from real data points. ",
+          "suffix": " The point discriminator instantiates th"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000018": {
+      "claim_id": "claim_000018",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-1.P1",
+      "model_quote": "HydraGAN uses a point discriminator to ensure that each sample within a generated batch is realistic.",
+      "source_quote": "HydraGAN uses a point discriminator to ensure that each sample within a generated batch is realistic.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 149,
+          "end": 250,
+          "exact": "HydraGAN uses a point discriminator to ensure that each sample within a generated batch is realistic.",
+          "prefix": "data points. In keeping with this goal, ",
+          "suffix": " The point discriminator instantiates th"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000019": {
+      "claim_id": "claim_000019",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-1.P1",
+      "model_quote": "The point discriminator instantiates the sample network structure to perform binary classification, labeling each sample as real or synthetic.",
+      "source_quote": "The point discriminator instantiates the sample network structure to perform binary classification, labeling each sample as real or synthetic.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 251,
+          "end": 393,
+          "exact": "The point discriminator instantiates the sample network structure to perform binary classification, labeling each sample as real or synthetic.",
+          "prefix": " within a generated batch is realistic. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000020": {
+      "claim_id": "claim_000020",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-1.P2",
+      "model_quote": "The point discriminator, D_(ρ), optimizes the function shown in Equation (1).",
+      "source_quote": "The point discriminator, D_(ρ), optimizes the function shown in Equation (1).",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 77,
+          "exact": "The point discriminator, D_(ρ), optimizes the function shown in Equation (1).",
+          "prefix": "",
+          "suffix": " Here, x_(r) and x_(g) represent batches"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000021": {
+      "claim_id": "claim_000021",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-1.P2",
+      "model_quote": "Here, x_(r) and x_(g) represent batches of real and corresponding synthetic data points.2",
+      "source_quote": "Here, x_(r) and x_(g) represent batches of real and corresponding synthetic data points.2",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 78,
+          "end": 167,
+          "exact": "Here, x_(r) and x_(g) represent batches of real and corresponding synthetic data points.2",
+          "prefix": "zes the function shown in Equation (1). ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000022": {
+      "claim_id": "claim_000022",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-1.P3",
+      "model_quote": "As Equation (1) indicates, the discriminator learns to categorize data points as ‘real’ or ‘synthetic.’",
+      "source_quote": "As Equation (1) indicates, the discriminator learns to categorize data points as ‘real’ or ‘synthetic.’",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 103,
+          "exact": "As Equation (1) indicates, the discriminator learns to categorize data points as ‘real’ or ‘synthetic.’",
+          "prefix": "",
+          "suffix": " Optimal performance is reached when eve"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000023": {
+      "claim_id": "claim_000023",
+      "type": "result",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-1.P3",
+      "model_quote": "Optimal performance is reached when every point is correctly labeled.",
+      "source_quote": "Optimal performance is reached when every point is correctly labeled.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-1.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 104,
+          "end": 173,
+          "exact": "Optimal performance is reached when every point is correctly labeled.",
+          "prefix": "e data points as ‘real’ or ‘synthetic.’ ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000024": {
+      "claim_id": "claim_000024",
+      "type": "assertion",
+      "scope": "background",
+      "source_element_id": "S-sec-3-2-2.P1",
+      "model_quote": "The distribution discriminator, D_(τ), examines a batch of data to determine whether the set is real or synthetic based on the data distribution characteristics.",
+      "source_quote": "The distribution discriminator, D_(τ), examines a batch of data to determine whether the set is real or synthetic based on the data distribution characteristics.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-2.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 161,
+          "exact": "The distribution discriminator, D_(τ), examines a batch of data to determine whether the set is real or synthetic based on the data distribution characteristics.",
+          "prefix": "",
+          "suffix": " The point discriminator may be effectiv"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000025": {
+      "claim_id": "claim_000025",
+      "type": "assertion",
+      "scope": "background",
+      "source_element_id": "S-sec-3-2-2.P1",
+      "model_quote": "The point discriminator may be effective at generating individual realistic data points.",
+      "source_quote": "The point discriminator may be effective at generating individual realistic data points.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-2.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 162,
+          "end": 250,
+          "exact": "The point discriminator may be effective at generating individual realistic data points.",
+          "prefix": " the data distribution characteristics. ",
+          "suffix": " However, if realism is only optimized f"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000026": {
+      "claim_id": "claim_000026",
+      "type": "assertion",
+      "scope": "background",
+      "source_element_id": "S-sec-3-2-2.P1",
+      "model_quote": "However, if realism is only optimized for one sample at a time, the GAN may fall prey to mode collapse and not emulate the distribution of points found in the real data.",
+      "source_quote": "However, if realism is only optimized for one sample at a time, the GAN may fall prey to mode collapse and not emulate the distribution of points found in the real data.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-2.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 251,
+          "end": 420,
+          "exact": "However, if realism is only optimized for one sample at a time, the GAN may fall prey to mode collapse and not emulate the distribution of points found in the real data.",
+          "prefix": "ating individual realistic data points. ",
+          "suffix": " The function approximated by this discr"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000027": {
+      "claim_id": "claim_000027",
+      "type": "assertion",
+      "scope": "background",
+      "source_element_id": "S-sec-3-2-2.P1",
+      "model_quote": "The function approximated by this discriminator is defined in Equation (2).",
+      "source_quote": "The function approximated by this discriminator is defined in Equation (2).",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-2.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 421,
+          "end": 496,
+          "exact": "The function approximated by this discriminator is defined in Equation (2).",
+          "prefix": "ution of points found in the real data. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000028": {
+      "claim_id": "claim_000028",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-2.P2",
+      "model_quote": "When training this discriminator, noise z is added to the generated and real data before they are passed to the network.",
+      "source_quote": "When training this discriminator, noise z is added to the generated and real data before they are passed to the network.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-2.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 120,
+          "exact": "When training this discriminator, noise z is added to the generated and real data before they are passed to the network.",
+          "prefix": "",
+          "suffix": " This noise is uniformly sampled from [−"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000029": {
+      "claim_id": "claim_000029",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-2.P2",
+      "model_quote": "This noise is uniformly sampled from [−0.0125,0.0125].",
+      "source_quote": "This noise is uniformly sampled from [−0.0125,0.0125].",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-2.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 121,
+          "end": 175,
+          "exact": "This noise is uniformly sampled from [−0.0125,0.0125].",
+          "prefix": " before they are passed to the network. ",
+          "suffix": " Adding noise supports network convergen"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000030": {
+      "claim_id": "claim_000030",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-2.P2",
+      "model_quote": "Adding noise supports network convergence once the generated data fall within the noise margin of the real data.",
+      "source_quote": "Adding noise supports network convergence once the generated data fall within the noise margin of the real data.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-2.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 176,
+          "end": 288,
+          "exact": "Adding noise supports network convergence once the generated data fall within the noise margin of the real data.",
+          "prefix": "niformly sampled from [−0.0125,0.0125]. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000031": {
+      "claim_id": "claim_000031",
+      "type": "assertion",
+      "scope": "background",
+      "source_element_id": "S-sec-3-2-3.P1",
+      "model_quote": "Bias and fairness are recognized as significant problems in machine learning [44, 60].",
+      "source_quote": "Bias and fairness are recognized as significant problems in machine learning [44, 60].",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 86,
+          "exact": "Bias and fairness are recognized as significant problems in machine learning [44, 60].",
+          "prefix": "",
+          "suffix": " Because representation bias may occur w"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000032": {
+      "claim_id": "claim_000032",
+      "type": "assertion",
+      "scope": "background",
+      "source_element_id": "S-sec-3-2-3.P1",
+      "model_quote": "Because representation bias may occur when training data lack diversity [40], researchers generate synthetic data to improve and control the data characteristics, ensuring that they are representative of the population they intend to mimic [11].",
+      "source_quote": "Because representation bias may occur when training data lack diversity [40], researchers generate synthetic data to improve and control the data characteristics, ensuring that they are representative of the population they intend to mimic [11].",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 87,
+          "end": 332,
+          "exact": "Because representation bias may occur when training data lack diversity [40], researchers generate synthetic data to improve and control the data characteristics, ensuring that they are representative of the population they intend to mimic [11].",
+          "prefix": " problems in machine learning [44, 60]. ",
+          "suffix": " This capability is supported in HydraGA"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000033": {
+      "claim_id": "claim_000033",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P1",
+      "model_quote": "This capability is supported in HydraGAN by the diversity discriminator, D_(ψ).",
+      "source_quote": "This capability is supported in HydraGAN by the diversity discriminator, D_(ψ).",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 333,
+          "end": 412,
+          "exact": "This capability is supported in HydraGAN by the diversity discriminator, D_(ψ).",
+          "prefix": "e population they intend to mimic [11]. ",
+          "suffix": " This discriminator ensures that output "
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000034": {
+      "claim_id": "claim_000034",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P1",
+      "model_quote": "This discriminator ensures that output from the generator meets externally imposed constraints on the distribution of a selected feature.",
+      "source_quote": "This discriminator ensures that output from the generator meets externally imposed constraints on the distribution of a selected feature.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 413,
+          "end": 550,
+          "exact": "This discriminator ensures that output from the generator meets externally imposed constraints on the distribution of a selected feature.",
+          "prefix": " by the diversity discriminator, D_(ψ). ",
+          "suffix": " Constraints may be designed to ensure e"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000035": {
+      "claim_id": "claim_000035",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P1",
+      "model_quote": "Constraints may be designed to ensure equal representation among all of the target class values or more greatly emphasize value ranges for a specific feature, providing the ability to achieve the data distribution needed for a given task.",
+      "source_quote": "Constraints may be designed to ensure equal representation among all of the target class values or more greatly emphasize value ranges for a specific feature, providing the ability to achieve the data distribution needed for a given task.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 551,
+          "end": 789,
+          "exact": "Constraints may be designed to ensure equal representation among all of the target class values or more greatly emphasize value ranges for a specific feature, providing the ability to achieve the data distribution needed for a given task.",
+          "prefix": "the distribution of a selected feature. ",
+          "suffix": " As an example, if 90% of a physical dat"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000036": {
+      "claim_id": "claim_000036",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P1",
+      "model_quote": "As an example, if 90% of a physical data collection represents one value for a sensitive feature (e.g., Race) and 10% represents another, the diversity discriminator may be used to achieve a more uniform distribution.",
+      "source_quote": "As an example, if 90% of a physical data collection represents one value for a sensitive feature (e.g., Race) and 10% represents another, the diversity discriminator may be used to achieve a more uniform distribution.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 790,
+          "end": 1007,
+          "exact": "As an example, if 90% of a physical data collection represents one value for a sensitive feature (e.g., Race) and 10% represents another, the diversity discriminator may be used to achieve a more uniform distribution.",
+          "prefix": "a distribution needed for a given task. ",
+          "suffix": " In this example, the diversity discrimi"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000037": {
+      "claim_id": "claim_000037",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P1",
+      "model_quote": "In this example, the diversity discriminator minimizes the difference between the original entropy (in this case, 0.47) and the specified desired entropy (e.g., a uniform distribution with an entropy of 1.00).",
+      "source_quote": "In this example, the diversity discriminator minimizes the difference between the original entropy (in this case, 0.47) and the specified desired entropy (e.g., a uniform distribution with an entropy of 1.00).",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 1008,
+          "end": 1217,
+          "exact": "In this example, the diversity discriminator minimizes the difference between the original entropy (in this case, 0.47) and the specified desired entropy (e.g., a uniform distribution with an entropy of 1.00).",
+          "prefix": "to achieve a more uniform distribution. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000038": {
+      "claim_id": "claim_000038",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P2",
+      "model_quote": "Tailoring a set of features to exhibit needed characteristics is accomplished by training the diversity discriminator to emulate a specified information content, measured by the entropy of a given feature.",
+      "source_quote": "Tailoring a set of features to exhibit needed characteristics is accomplished by training the diversity discriminator to emulate a specified information content, measured by the entropy of a given feature.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 205,
+          "exact": "Tailoring a set of features to exhibit needed characteristics is accomplished by training the diversity discriminator to emulate a specified information content, measured by the entropy of a given feature.",
+          "prefix": "",
+          "suffix": " The discriminator’s deviation from this"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000039": {
+      "claim_id": "claim_000039",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P2",
+      "model_quote": "The discriminator’s deviation from this goal is computed as the absolute value of the difference between the observed and desired entropy.",
+      "source_quote": "The discriminator’s deviation from this goal is computed as the absolute value of the difference between the observed and desired entropy.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 206,
+          "end": 344,
+          "exact": "The discriminator’s deviation from this goal is computed as the absolute value of the difference between the observed and desired entropy.",
+          "prefix": "ured by the entropy of a given feature. ",
+          "suffix": " HydraGAN’s current diversity goal is to"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000040": {
+      "claim_id": "claim_000040",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P2",
+      "model_quote": "HydraGAN’s current diversity goal is to output uniform sampling of the features; thus, the discriminator approximates the function shown in Equation (3).",
+      "source_quote": "HydraGAN’s current diversity goal is to output uniform sampling of the features; thus, the discriminator approximates the function shown in Equation (3).",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 345,
+          "end": 498,
+          "exact": "HydraGAN’s current diversity goal is to output uniform sampling of the features; thus, the discriminator approximates the function shown in Equation (3).",
+          "prefix": "tween the observed and desired entropy. ",
+          "suffix": " In this equation, α represents the prop"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000041": {
+      "claim_id": "claim_000041",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-3.P2",
+      "model_quote": "In this equation, α represents the proportion for each value of feature f in the original (real) dataset and β represents the desired proportion.",
+      "source_quote": "In this equation, α represents the proportion for each value of feature f in the original (real) dataset and β represents the desired proportion.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-3.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 499,
+          "end": 644,
+          "exact": "In this equation, α represents the proportion for each value of feature f in the original (real) dataset and β represents the desired proportion.",
+          "prefix": "tes the function shown in Equation (3). ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000042": {
+      "claim_id": "claim_000042",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P1",
+      "model_quote": "To promote the privacy preservation of synthetic data, the privacy discriminator assesses its ability to re-identify sensitive attributes from the generated data.",
+      "source_quote": "To promote the privacy preservation of synthetic data, the privacy discriminator assesses its ability to re-identify sensitive attributes from the generated data.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 162,
+          "exact": "To promote the privacy preservation of synthetic data, the privacy discriminator assesses its ability to re-identify sensitive attributes from the generated data.",
+          "prefix": "",
+          "suffix": " The discriminator simulates an attack o"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000043": {
+      "claim_id": "claim_000043",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P1",
+      "model_quote": "The discriminator simulates an attack on the data from an external entity wishing to identify a sensitive attribute from the generated data.",
+      "source_quote": "The discriminator simulates an attack on the data from an external entity wishing to identify a sensitive attribute from the generated data.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 163,
+          "end": 303,
+          "exact": "The discriminator simulates an attack on the data from an external entity wishing to identify a sensitive attribute from the generated data.",
+          "prefix": "ive attributes from the generated data. ",
+          "suffix": " The discriminator’s goal is to make att"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000044": {
+      "claim_id": "claim_000044",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P1",
+      "model_quote": "The discriminator’s goal is to make attribute re-identification as difficult as possible.",
+      "source_quote": "The discriminator’s goal is to make attribute re-identification as difficult as possible.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 304,
+          "end": 393,
+          "exact": "The discriminator’s goal is to make attribute re-identification as difficult as possible.",
+          "prefix": "tive attribute from the generated data. ",
+          "suffix": " To accomplish this goal, the privacy di"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000045": {
+      "claim_id": "claim_000045",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P1",
+      "model_quote": "To accomplish this goal, the privacy discriminator trains a model to re-identify sensitive attributes in the data given values of the other features.",
+      "source_quote": "To accomplish this goal, the privacy discriminator trains a model to re-identify sensitive attributes in the data given values of the other features.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 394,
+          "end": 543,
+          "exact": "To accomplish this goal, the privacy discriminator trains a model to re-identify sensitive attributes in the data given values of the other features.",
+          "prefix": "dentification as difficult as possible. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000046": {
+      "claim_id": "claim_000046",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P2",
+      "model_quote": "The privacy discriminator optimizes a function mapping the non-sensitive features of a data sample to the sensitive value contained in that sample.",
+      "source_quote": "The privacy discriminator optimizes a function mapping the non-sensitive features of a data sample to the sensitive value contained in that sample.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 147,
+          "exact": "The privacy discriminator optimizes a function mapping the non-sensitive features of a data sample to the sensitive value contained in that sample.",
+          "prefix": "",
+          "suffix": " Because the discriminator predicts thes"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000047": {
+      "claim_id": "claim_000047",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P2",
+      "model_quote": "Because the discriminator predicts these values for a set of generated data, it uses the batch discriminator design shown in Figure 2.",
+      "source_quote": "Because the discriminator predicts these values for a set of generated data, it uses the batch discriminator design shown in Figure 2.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 148,
+          "end": 282,
+          "exact": "Because the discriminator predicts these values for a set of generated data, it uses the batch discriminator design shown in Figure 2.",
+          "prefix": "nsitive value contained in that sample. ",
+          "suffix": " While examining each data point to infe"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000048": {
+      "claim_id": "claim_000048",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P2",
+      "model_quote": "While examining each data point to infer the sensitive value, the discriminator observes all other non-sensitive attributes in the generated batch.",
+      "source_quote": "While examining each data point to infer the sensitive value, the discriminator observes all other non-sensitive attributes in the generated batch.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 283,
+          "end": 430,
+          "exact": "While examining each data point to infer the sensitive value, the discriminator observes all other non-sensitive attributes in the generated batch.",
+          "prefix": "discriminator design shown in Figure 2. ",
+          "suffix": " As a result, the discriminator can acce"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000049": {
+      "claim_id": "claim_000049",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P2",
+      "model_quote": "As a result, the discriminator can access distribution information, such as the relative frequency of sensitive values, when generating a prediction.",
+      "source_quote": "As a result, the discriminator can access distribution information, such as the relative frequency of sensitive values, when generating a prediction.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 431,
+          "end": 580,
+          "exact": "As a result, the discriminator can access distribution information, such as the relative frequency of sensitive values, when generating a prediction.",
+          "prefix": "tive attributes in the generated batch. ",
+          "suffix": " Equation (4) formalizes the discriminat"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000050": {
+      "claim_id": "claim_000050",
+      "type": "assertion",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P2",
+      "model_quote": "Equation (4) formalizes the discriminator’s objective, where D_(ω) represents the privacy discriminator, k represents a data sample drawn from the real data, and s represents the sensitive feature of sample k.",
+      "source_quote": "Equation (4) formalizes the discriminator’s objective, where D_(ω) represents the privacy discriminator, k represents a data sample drawn from the real data, and s represents the sensitive feature of sample k.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 581,
+          "end": 790,
+          "exact": "Equation (4) formalizes the discriminator’s objective, where D_(ω) represents the privacy discriminator, k represents a data sample drawn from the real data, and s represents the sensitive feature of sample k.",
+          "prefix": "e values, when generating a prediction. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000051": {
+      "claim_id": "claim_000051",
+      "type": "method",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P3",
+      "model_quote": "To optimize the function in Equation (4), the privacy discriminator must perfectly re-identify the sensitive attribute value for each generated data point.",
+      "source_quote": "To optimize the function in Equation (4), the privacy discriminator must perfectly re-identify the sensitive attribute value for each generated data point.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 0,
+          "end": 155,
+          "exact": "To optimize the function in Equation (4), the privacy discriminator must perfectly re-identify the sensitive attribute value for each generated data point.",
+          "prefix": "",
+          "suffix": " The adversarial relationship between di"
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    },
+    "claim_000052": {
+      "claim_id": "claim_000052",
+      "type": "interpretation",
+      "scope": "this_study",
+      "source_element_id": "S-sec-3-2-4.P3",
+      "model_quote": "The adversarial relationship between discriminators and generator thus forces the generator to create data that makes re-identification difficult for the discriminator, improving privacy preservation through the synthetic data generation.",
+      "source_quote": "The adversarial relationship between discriminators and generator thus forces the generator to create data that makes re-identification difficult for the discriminator, improving privacy preservation through the synthetic data generation.",
+      "source_anchor": {
+        "element_id": "S-sec-3-2-4.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 156,
+          "end": 394,
+          "exact": "The adversarial relationship between discriminators and generator thus forces the generator to create data that makes re-identification difficult for the discriminator, improving privacy preservation through the synthetic data generation.",
+          "prefix": "te value for each generated data point. ",
+          "suffix": ""
+        }
+      },
+      "source_status": "located",
+      "alignment_note": "exact",
+      "created_run_id": "510fb48501af"
+    }
+  },
+  "evidence_pool": {
+    "evidence_000001": {
+      "evidence_id": "evidence_000001",
+      "kind": "paragraph",
+      "source_element_id": "S-sec-5-6.P1",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P1",
+        "selector": {
+          "type": "text_span",
+          "start": 126,
+          "end": 220,
+          "exact": "Here, we investigate the impact of removing individual discriminators on HydraGAN performance.",
+          "prefix": "balancing five diverse data objectives. ",
+          "suffix": " We hypothesize that the removal of a si"
+        }
+      },
+      "source_status": "located",
+      "source_note": "exact_source_quote_located",
+      "source_quote": "Here, we investigate the impact of removing individual discriminators on HydraGAN performance.",
+      "source_content": {
+        "passage": "Here, we investigate the impact of removing individual discriminators on HydraGAN performance.",
+        "context": "In the previous section, we observed that HydraGAN outperformed baseline methods when balancing five diverse data objectives. Here, we investigate the impact of removing individual discriminators on HydraGAN performance. We hypothesize that the removal of a single discriminator will lessen HydraGAN’s performance on the corresponding objective. We analyze the impact of this removal on the remaining objectives and AuRC performance.",
+        "start": 126,
+        "end": 220
+      },
+      "description": "The paragraph states the ablation setup examines removing individual discriminators and its impact on HydraGAN performance.",
+      "observed_via": "text",
+      "source_asset_id": null,
+      "image_receipt": null,
+      "created_run_id": "b92830ef159d"
+    },
+    "evidence_000002": {
+      "evidence_id": "evidence_000002",
+      "kind": "paragraph",
+      "source_element_id": "S-sec-5-6.P2",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P2",
+        "selector": {
+          "type": "text_span",
+          "start": 62,
+          "end": 179,
+          "exact": "As expected, when a discriminator was removed from the system, performance for the corresponding objective decreased.",
+          "prefix": "ation study are visualized in Figure 4. ",
+          "suffix": " However, because HydraGAN balances mult"
+        }
+      },
+      "source_status": "located",
+      "source_note": "exact_source_quote_located",
+      "source_quote": "As expected, when a discriminator was removed from the system, performance for the corresponding objective decreased.",
+      "source_content": {
+        "passage": "As expected, when a discriminator was removed from the system, performance for the corresponding objective decreased.",
+        "context": "The results of the ablation study are visualized in Figure 4. As expected, when a discriminator was removed from the system, performance for the corresponding objective decreased. However, because HydraGAN balances multiple objectives, performance for the remaining objectives correspondingly increased. Consistently, HydraGAN with all discriminators achieves the highest AuRC value of all variations.",
+        "start": 62,
+        "end": 179
+      },
+      "description": "The paragraph reports the ablation result that removing a discriminator decreased the corresponding objective's performance.",
+      "observed_via": "text",
+      "source_asset_id": null,
+      "image_receipt": null,
+      "created_run_id": "b92830ef159d"
+    },
+    "evidence_000003": {
+      "evidence_id": "evidence_000003",
+      "kind": "paragraph",
+      "source_element_id": "S-sec-5-6.P3",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.P3",
+        "selector": {
+          "type": "text_span",
+          "start": 378,
+          "end": 467,
+          "exact": "Removal of a discriminator forces a collapse in performance for the corresponding metric.",
+          "prefix": "ese changes in the discriminator space. ",
+          "suffix": " However, results from this analysis als"
+        }
+      },
+      "source_status": "located",
+      "source_note": "exact_source_quote_located",
+      "source_quote": "Removal of a discriminator forces a collapse in performance for the corresponding metric.",
+      "source_content": {
+        "passage": "Removal of a discriminator forces a collapse in performance for the corresponding metric.",
+        "context": " Additionally, the results indicate the desired relationship between the discriminator goals and the measures that are used to assess performance for that goal. The shape of the performance curve shifts with these changes in the discriminator space. Removal of a discriminator forces a collapse in performance for the corresponding metric. However, results from this analysis also highlight the cooperative and competitive discriminator “teams.” Three cooperative discriminator groups emerged: those that emphasize data realism (i.e., point and distribution realism, target accuracy), thos",
+        "start": 378,
+        "end": 467
+      },
+      "description": "The paragraph describes a collapse in performance for the corresponding metric when a discriminator is removed and also discusses cooperative and competitive discriminator groups.",
+      "observed_via": "text",
+      "source_asset_id": null,
+      "image_receipt": null,
+      "created_run_id": "b92830ef159d"
+    },
+    "evidence_000004": {
+      "evidence_id": "evidence_000004",
+      "kind": "figure",
+      "source_element_id": "S-sec-5-6.F1",
+      "source_anchor": {
+        "element_id": "S-sec-5-6.F1",
+        "selector": {
+          "type": "element"
+        }
+      },
+      "source_status": "located",
+      "source_note": "figure_element_located",
+      "source_quote": null,
+      "source_content": {
+        "label": "Fig. 4.",
+        "caption": "Comparison of HydraGAN performance for the combination of all discriminators vs. leave-one-discriminator-out. Experiments are repeated for all datasets.",
+        "alt_text": "Fig. 4.",
+        "image_asset_id": "A5",
+        "visual_observation": "Six radar plots are visible, one for each dataset. Each plot overlays a HydraGAN curve with multiple leave-one-discriminator-out curves. The metric axes visible are RA, EM, DI, TA, and RE. Multiple colored polygons indicate performance changes when individual discriminators are removed.",
+        "visual_observation_source": "model_reading_of_attached_image",
+        "visual_reading_verified": false,
+        "unverified_model_quote": "Comparison of HydraGAN performance for the combination of all discriminators vs. leave-one-discriminator-out. Experiments are repeated for all datasets."
+      },
+      "description": "Figure 4 shows radar charts comparing HydraGAN with all discriminators against leave-one-discriminator-out settings across multiple datasets (Heart, Electric Grid, Cervical Cancer, Iris, Smarthome, Health Insurance). The legends list HydraGAN and several leave-one-out variants such as 'No Point', 'No Distribution', 'No Diversity', 'No Privacy', 'No Accuracy', and 'No Realism'.",
+      "observed_via": "image_input",
+      "source_asset_id": "A5",
+      "image_receipt": {
+        "element_id": "S-sec-5-6.F1",
+        "asset_id": "A5",
+        "source_path": "assets/A5.jpg",
+        "source_sha256": "d663932cc8c93a1d0341d24901d0dc1c36ba67f95d5fc3a0836fbd52c6c051ed",
+        "sent_sha256": "d663932cc8c93a1d0341d24901d0dc1c36ba67f95d5fc3a0836fbd52c6c051ed",
+        "width": 425,
+        "height": 500,
+        "cell_id": null,
+        "conversion": null,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_0315272147395a21016ae0fffc1cdc87d2afa7964418a30ebd"
+      },
+      "created_run_id": "b92830ef159d"
+    }
+  },
+  "claim_evidence_links": [
+    {
+      "claim_id": "claim_000002",
+      "evidence_id": "evidence_000001",
+      "why_related": "Both concern the study of removing individual discriminators and its effect on HydraGAN performance.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000003",
+      "evidence_id": "evidence_000001",
+      "why_related": "The paragraph explicitly states the hypothesis that removing a single discriminator will lessen performance on the corresponding objective.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000006",
+      "evidence_id": "evidence_000002",
+      "why_related": "Both refer to the observed decrease in performance for the corresponding objective after discriminator removal.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000012",
+      "evidence_id": "evidence_000003",
+      "why_related": "Both describe the performance collapse associated with removing a discriminator.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000013",
+      "evidence_id": "evidence_000003",
+      "why_related": "Both mention the cooperative and competitive discriminator 'teams' / groups identified in the analysis.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000002",
+      "evidence_id": "evidence_000004",
+      "why_related": "The figure directly compares HydraGAN performance with all discriminators versus leave-one-discriminator-out conditions.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000003",
+      "evidence_id": "evidence_000004",
+      "why_related": "The figure includes leave-one-out variants, which correspond to removing a single discriminator and observing performance changes.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000006",
+      "evidence_id": "evidence_000004",
+      "why_related": "The plotted leave-one-out results show performance on the corresponding objectives under discriminator removal.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000012",
+      "evidence_id": "evidence_000004",
+      "why_related": "The comparison is about performance changes after removing a discriminator, matching the claimed collapse/decrease in the corresponding metric.",
+      "created_run_id": "b92830ef159d"
+    },
+    {
+      "claim_id": "claim_000013",
+      "evidence_id": "evidence_000004",
+      "why_related": "The multiple discriminator variants shown in the legends and plots are relevant to comparing discriminator roles and interactions.",
+      "created_run_id": "b92830ef159d"
+    }
+  ],
+  "completed_claim_windows": {
+    "S-sec-5-6.P1:0:433": "completed",
+    "S-sec-5-6.P2:0:401": "completed",
+    "S-sec-5-6.P3:0:1121": "completed",
+    "S-sec-3-2-1.P1:0:393": "completed",
+    "S-sec-3-2-1.P2:0:167": "completed",
+    "S-sec-3-2-1.P3:0:173": "completed",
+    "S-sec-3-2-2.P1:0:496": "completed",
+    "S-sec-3-2-2.P2:0:288": "completed",
+    "S-sec-3-2-3.P1:0:1217": "completed",
+    "S-sec-3-2-3.P2:0:644": "completed",
+    "S-sec-3-2-4.P1:0:543": "completed",
+    "S-sec-3-2-4.P2:0:790": "completed",
+    "S-sec-3-2-4.P3:0:394": "completed"
+  },
+  "completed_evidence_scans": {
+    "01a5e318607c5bb1cf16eab9": "completed",
+    "db975ed1b56692b9ac9622bb": "completed",
+    "350e3d725958c9694713df0f": "completed",
+    "17be7bd423d0e646119b16a5": "completed",
+    "630583f04b7bed52fd28ae95": "completed",
+    "e9405599f3a9c81dd0a8c2f3": "completed",
+    "426786df56fccea488cc47dc": "completed",
+    "dc1e4cd8203aab4a9f9a8f41": "completed",
+    "719adb49464de22e32c14e57": "completed",
+    "3fbf07a9aea30d6b1aea73e1": "completed",
+    "6ae02697ad708b3e1a0270a0": "completed",
+    "2bd45a0a00fc4b6de5df282b": "completed"
+  },
+  "evidence_image_candidates": {
+    "01a5e318607c5bb1cf16eab9": [
+      "S-sec-5-6.F1"
+    ],
+    "db975ed1b56692b9ac9622bb": [
+      "S-sec-5-6.F1"
+    ],
+    "350e3d725958c9694713df0f": [
+      "S-sec-5-6.F1"
+    ],
+    "17be7bd423d0e646119b16a5": [
+      "S-sec-5-6.F1"
+    ],
+    "630583f04b7bed52fd28ae95": [
+      "S-sec-5-6.F1"
+    ],
+    "e9405599f3a9c81dd0a8c2f3": [
+      "S-sec-5-6.F1"
+    ]
+  },
+  "evidence_search_by_claim": {
+    "claim_000002": {
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "search_scope": "selected_sources",
+      "source_section_ids": [
+        "S-sec-5-6"
+      ],
+      "source_element_ids": [
+        "S-sec-5-6.F1",
+        "S-sec-5-6.P1",
+        "S-sec-5-6.P2",
+        "S-sec-5-6.P3"
+      ],
+      "image_mode": "relevant",
+      "text_scan_complete": true,
+      "image_scan_complete": true,
+      "run_id": "b92830ef159d"
+    },
+    "claim_000003": {
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "search_scope": "selected_sources",
+      "source_section_ids": [
+        "S-sec-5-6"
+      ],
+      "source_element_ids": [
+        "S-sec-5-6.F1",
+        "S-sec-5-6.P1",
+        "S-sec-5-6.P2",
+        "S-sec-5-6.P3"
+      ],
+      "image_mode": "relevant",
+      "text_scan_complete": true,
+      "image_scan_complete": true,
+      "run_id": "b92830ef159d"
+    },
+    "claim_000006": {
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "search_scope": "selected_sources",
+      "source_section_ids": [
+        "S-sec-5-6"
+      ],
+      "source_element_ids": [
+        "S-sec-5-6.F1",
+        "S-sec-5-6.P1",
+        "S-sec-5-6.P2",
+        "S-sec-5-6.P3"
+      ],
+      "image_mode": "relevant",
+      "text_scan_complete": true,
+      "image_scan_complete": true,
+      "run_id": "b92830ef159d"
+    },
+    "claim_000012": {
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "search_scope": "selected_sources",
+      "source_section_ids": [
+        "S-sec-5-6"
+      ],
+      "source_element_ids": [
+        "S-sec-5-6.F1",
+        "S-sec-5-6.P1",
+        "S-sec-5-6.P2",
+        "S-sec-5-6.P3"
+      ],
+      "image_mode": "relevant",
+      "text_scan_complete": true,
+      "image_scan_complete": true,
+      "run_id": "b92830ef159d"
+    },
+    "claim_000013": {
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "search_scope": "selected_sources",
+      "source_section_ids": [
+        "S-sec-5-6"
+      ],
+      "source_element_ids": [
+        "S-sec-5-6.F1",
+        "S-sec-5-6.P1",
+        "S-sec-5-6.P2",
+        "S-sec-5-6.P3"
+      ],
+      "image_mode": "relevant",
+      "text_scan_complete": true,
+      "image_scan_complete": true,
+      "run_id": "b92830ef159d"
+    }
+  },
+  "direct_evidence_searches": {},
+  "runs": [
+    {
+      "run_id": "efcc47697152",
+      "stage": "coordinator",
+      "mode": "full_pipeline",
+      "workflow_policy": "unified_question_v1",
+      "budget_policy": "per_question_v1",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "user_question": "In HydraGAN's ablation study, what happens to the corresponding objective when a discriminator is removed, and how does this support the role of that discriminator?",
+      "model": "gpt-5.4-mini",
+      "language": "en",
+      "image_mode": "relevant",
+      "question_limit_usd": 0.5,
+      "status": "completed",
+      "started_at": "2026-10-27T19:47:57.044509+00:00",
+      "current_phase": "answer",
+      "task_states": {
+        "t1": {
+          "claim_selection": {
+            "signature": "dbe8c6df7333cba004f80a94fb1ba55c621b015b4fbc62da9b1a52df90e9cbf0",
+            "candidate_claim_ids": [
+              "claim_000001",
+              "claim_000002",
+              "claim_000003",
+              "claim_000004",
+              "claim_000005",
+              "claim_000006",
+              "claim_000007",
+              "claim_000008",
+              "claim_000009",
+              "claim_000010",
+              "claim_000011",
+              "claim_000012",
+              "claim_000013",
+              "claim_000014",
+              "claim_000015"
+            ],
+            "selected_claim_ids": [
+              "claim_000002",
+              "claim_000003",
+              "claim_000006",
+              "claim_000012",
+              "claim_000013"
+            ],
+            "not_selected_claim_ids": [
+              "claim_000001",
+              "claim_000004",
+              "claim_000005",
+              "claim_000007",
+              "claim_000008",
+              "claim_000009",
+              "claim_000010",
+              "claim_000011",
+              "claim_000014",
+              "claim_000015"
+            ],
+            "page_decisions": [
+              {
+                "candidate_claim_ids": [
+                  "claim_000001",
+                  "claim_000002",
+                  "claim_000003",
+                  "claim_000004",
+                  "claim_000005",
+                  "claim_000006",
+                  "claim_000007",
+                  "claim_000008",
+                  "claim_000009",
+                  "claim_000010",
+                  "claim_000011",
+                  "claim_000012",
+                  "claim_000013",
+                  "claim_000014",
+                  "claim_000015"
+                ],
+                "selected_claim_ids": [
+                  "claim_000002",
+                  "claim_000003",
+                  "claim_000006",
+                  "claim_000012",
+                  "claim_000013"
+                ],
+                "reason": "These claims directly answer the question about the ablation study: it removes individual discriminators, predicts reduced performance on the corresponding objective, reports that the corresponding objective does decrease, and interprets this as evidence that each discriminator is necessary for its target metric. The remaining selected claims add the stronger summary that removal causes a collapse in the corresponding metric and that the results reveal cooperative/competitive discriminator roles."
+              }
+            ]
+          },
+          "selected_claim_ids": [
+            "claim_000002",
+            "claim_000003",
+            "claim_000006",
+            "claim_000012",
+            "claim_000013"
+          ],
+          "coverage": {
+            "claim_windows": 3,
+            "pending_claim_windows": [],
+            "evidence_search_by_claim": {
+              "claim_000002": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              },
+              "claim_000003": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              },
+              "claim_000006": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              },
+              "claim_000012": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              },
+              "claim_000013": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              }
+            },
+            "scope_is_user_locked": false,
+            "search_is_not_proof_of_absence": true
+          },
+          "selected_evidence_ids": [
+            "evidence_000001",
+            "evidence_000002",
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "missing_information": [],
+          "collection_ready": true,
+          "collection_reviews": [
+            {
+              "ready_for_requested_operation": true,
+              "selected_evidence_ids": [
+                "evidence_000001",
+                "evidence_000002",
+                "evidence_000003",
+                "evidence_000004"
+              ],
+              "missing_information": [],
+              "additional_section_ids": [],
+              "additional_element_ids": [],
+              "search_whole_paper": false,
+              "collection_reason": "The selected sources already contain the necessary ablation-study statement and its interpretation: removing a discriminator decreases performance for the corresponding objective/metric, supporting the role of that discriminator in optimizing its associated objective. The figure also shows the leave-one-discriminator-out comparison, which is relevant context. No additional collection is needed within the locked section scope."
+            }
+          ],
+          "mapping_ids": [
+            "mapping_000001"
+          ],
+          "analyzed_claim_ids": [
+            "claim_000002",
+            "claim_000003",
+            "claim_000006",
+            "claim_000012",
+            "claim_000013"
+          ],
+          "deferred_claim_ids": []
+        }
+      },
+      "stage_results": [
+        {
+          "stage": "claim",
+          "exit_code": 0,
+          "child_run_ids": [
+            "8e040418f492"
+          ],
+          "status": "completed",
+          "time": "2026-10-27T19:48:05.650163+00:00"
+        },
+        {
+          "stage": "evidence",
+          "exit_code": 0,
+          "child_run_ids": [
+            "b92830ef159d"
+          ],
+          "status": "completed",
+          "time": "2026-10-27T19:48:16.178511+00:00"
+        }
+      ],
+      "issues": [],
+      "created_mapping_ids": [
+        "mapping_000001"
+      ],
+      "used_mapping_ids": [
+        "mapping_000001"
+      ],
+      "answer": {
+        "answer": "When a discriminator is removed, the objective tied to that discriminator gets worse: the paper says performance for the corresponding objective decreased, and even characterizes it as a collapse in performance for the corresponding metric/objective (claim_000006; claim_000012). This supports the discriminator’s role because the ablation shows that each discriminator is contributing to the objective it is meant to enforce—if you take it away, that specific objective is no longer maintained as well (claim_000003; mapping_000001).",
+        "used_source_ids": [
+          "claim_000006",
+          "claim_000012",
+          "claim_000003",
+          "mapping_000001"
+        ],
+        "limitations": [
+          "The strongest wording (“collapse”) is the authors’ qualitative characterization, not a separate numerical threshold.",
+          "The support here is from the ablation comparison and author interpretation; the supplied material does not provide a numeric drop in the response."
+        ]
+      },
+      "answer_status": "generated",
+      "question_budget_id": "efcc47697152",
+      "task_plan": {
+        "paper_id": "acm_10_1145_3653982",
+        "user_message": "In HydraGAN's ablation study, what happens to the corresponding objective when a discriminator is removed, and how does this support the role of that discriminator?",
+        "language": "en",
+        "tasks": [
+          {
+            "task_id": "t1",
+            "intent": "explain_argument",
+            "goal": "Explain what the ablation study reports happens to the objective associated with a removed discriminator, and how that result supports the discriminator’s role.",
+            "scope": {
+              "mode": "section",
+              "section_ids": [
+                "S-sec-5-6"
+              ],
+              "element_ids": [
+                "S-sec-5-6.F1",
+                "S-sec-5-6.P1",
+                "S-sec-5-6.P2",
+                "S-sec-5-6.P3"
+              ],
+              "claim_ids": [
+                "claim_000002",
+                "claim_000003",
+                "claim_000006",
+                "claim_000012",
+                "claim_000013"
+              ],
+              "user_locked": false
+            },
+            "evidence_scope": "related_sections",
+            "mapping_focus": "claim_support",
+            "output_style": "direct"
+          }
+        ]
+      },
+      "answer_material_ids": [
+        "claim_000002",
+        "claim_000003",
+        "claim_000006",
+        "claim_000012",
+        "claim_000013",
+        "evidence_000001",
+        "evidence_000002",
+        "evidence_000003",
+        "evidence_000004",
+        "mapping_000001"
+      ],
+      "unfinished_tasks": [],
+      "answer_reference_check": {
+        "mentioned_ids": [
+          "claim_000003",
+          "claim_000006",
+          "claim_000012",
+          "mapping_000001"
+        ],
+        "unknown_ids": [],
+        "references_recognized": true
+      },
+      "answer_available": true,
+      "finished_at": "2026-10-27T19:48:25.761801+00:00",
+      "duration_seconds_last_attempt": 28.718,
+      "attempt_cost_reports": [
+        {
+          "currency": "USD",
+          "estimate_only": true,
+          "price_checked_on": "2026-10-24",
+          "pricing_basis": "OpenAI standard online rates applied to API-reported tokens (including image input/reasoning output, not billing data)",
+          "accounting_note": "Image input is already included in reported input tokens. Reasoning is already included in output tokens. Neither is charged a second time. Hidden SDK retries/requests without usage receipts cannot be reconciled with the invoice.",
+          "input_images": 0,
+          "reasoning_tokens": 0,
+          "failed_attempts": 0,
+          "llm_calls_recorded": 5,
+          "input_tokens": 25327,
+          "cached_input_tokens": 0,
+          "output_tokens": 1393,
+          "complete": true,
+          "estimated_total_usd": 0.02526375,
+          "known_cost_usd": 0.02526375,
+          "unpriced_models": [],
+          "by_agent": [
+            {
+              "agent": "Coordinator",
+              "llm_calls": 4,
+              "input_tokens": 20360,
+              "cached_input_tokens": 0,
+              "output_tokens": 647,
+              "estimated_cost_usd": 0.0181815,
+              "known_cost_usd": 0.0181815
+            },
+            {
+              "agent": "Mapping",
+              "llm_calls": 1,
+              "input_tokens": 4967,
+              "cached_input_tokens": 0,
+              "output_tokens": 746,
+              "estimated_cost_usd": 0.00708225,
+              "known_cost_usd": 0.00708225
+            }
+          ],
+          "by_model": [
+            {
+              "model": "gpt-5.4-mini-2026-03-17",
+              "llm_calls": 5,
+              "input_tokens": 25327,
+              "cached_input_tokens": 0,
+              "output_tokens": 1393,
+              "estimated_cost_usd": 0.02526375,
+              "known_cost_usd": 0.02526375
+            }
+          ],
+          "calls": [
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_04cda4c456ad48ec016ae0ffee0ca487d28aedd3ecdb1827ec",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 4573,
+              "cached_input_tokens": 0,
+              "output_tokens": 198,
+              "estimated_cost_usd": 0.00432075,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_05adf92ab650da08016ae0fff59d7087d2ba877aa1a76b011b",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 2526,
+              "cached_input_tokens": 0,
+              "output_tokens": 121,
+              "estimated_cost_usd": 0.002439,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_0bb3f5457122c459016ae10000285887d2a80213f060ac2a3c",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 8460,
+              "cached_input_tokens": 0,
+              "output_tokens": 139,
+              "estimated_cost_usd": 0.0069705,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Mapping",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_06d757e1b9f2cc40016ae10001588087d2af05ede2cc4e409b",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 4967,
+              "cached_input_tokens": 0,
+              "output_tokens": 746,
+              "estimated_cost_usd": 0.00708225,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_022ac619cbcc0964016ae10007450887d282698bd6994585aa",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 4801,
+              "cached_input_tokens": 0,
+              "output_tokens": 189,
+              "estimated_cost_usd": 0.00445125,
+              "pricing_status": "priced"
+            }
+          ]
+        }
+      ],
+      "budget_report": {
+        "paper_id": "acm_10_1145_3653982",
+        "question_budget_id": "efcc47697152",
+        "budget_policy": "per_question_v1",
+        "limit_usd": 0.5,
+        "operating_limit_usd": 0.45,
+        "safety_margin_usd": 0.05,
+        "committed_usd": 0.0354975,
+        "remaining_usd": 0.4145025,
+        "uncertain_entries": 0,
+        "legacy_paper_spending_usd": 0.15902775,
+        "blocked": false,
+        "stop_reason": null,
+        "ledger_path": "D:\\新建文件夹\\paper_comprehending\\output\\paper_budget.sqlite3",
+        "scope": "One user-question workflow: planning, all agents, retries and resume share the same budget ID. Other questions do not consume this limit.",
+        "estimate_only": true
+      },
+      "answer_file": "D:\\新建文件夹\\paper_comprehending\\data\\analysis\\acm_10_1145_3653982\\answer_efcc47697152.md"
+    },
+    {
+      "run_id": "8e040418f492",
+      "stage": "claim",
+      "model": "gpt-5.4-mini",
+      "sections": [
+        "S-sec-5-6"
+      ],
+      "element_ids": [
+        "S-sec-5-6.P1",
+        "S-sec-5-6.P2",
+        "S-sec-5-6.P3"
+      ],
+      "status": "completed",
+      "new_claims": 15,
+      "processed_windows": 3,
+      "started_at": "2026-10-27T19:48:00.432704+00:00",
+      "finished_at": "2026-10-27T19:48:05.540019+00:00",
+      "duration_seconds": 5.108,
+      "llm_wall_time_seconds": 5.093,
+      "api_cost_report": {
+        "currency": "USD",
+        "estimate_only": true,
+        "price_checked_on": "2026-10-24",
+        "pricing_basis": "OpenAI standard online rates applied to API-reported tokens (including image input/reasoning output, not billing data)",
+        "accounting_note": "Image input is already included in reported input tokens. Reasoning is already included in output tokens. Neither is charged a second time. Hidden SDK retries/requests without usage receipts cannot be reconciled with the invoice.",
+        "input_images": 0,
+        "reasoning_tokens": 0,
+        "failed_attempts": 0,
+        "llm_calls_recorded": 1,
+        "input_tokens": 1109,
+        "cached_input_tokens": 0,
+        "output_tokens": 752,
+        "complete": true,
+        "estimated_total_usd": 0.00421575,
+        "known_cost_usd": 0.00421575,
+        "unpriced_models": [],
+        "by_agent": [
+          {
+            "agent": "Claim",
+            "llm_calls": 1,
+            "input_tokens": 1109,
+            "cached_input_tokens": 0,
+            "output_tokens": 752,
+            "estimated_cost_usd": 0.00421575,
+            "known_cost_usd": 0.00421575
+          }
+        ],
+        "by_model": [
+          {
+            "model": "gpt-5.4-mini-2026-03-17",
+            "llm_calls": 1,
+            "input_tokens": 1109,
+            "cached_input_tokens": 0,
+            "output_tokens": 752,
+            "estimated_cost_usd": 0.00421575,
+            "known_cost_usd": 0.00421575
+          }
+        ],
+        "calls": [
+          {
+            "agent": "Claim",
+            "model": "gpt-5.4-mini-2026-03-17",
+            "response_id": "resp_04ec66533f96b3d6016ae0fff1218087d29fbe4b68c2b3a3f7",
+            "call_status": "returned",
+            "input_images": 0,
+            "reasoning_tokens": 0,
+            "service_tier": "default",
+            "requested_model": "gpt-5.4-mini",
+            "input_tokens": 1109,
+            "cached_input_tokens": 0,
+            "output_tokens": 752,
+            "estimated_cost_usd": 0.00421575,
+            "pricing_status": "priced"
+          }
+        ]
+      },
+      "budget_report": {
+        "paper_id": "acm_10_1145_3653982",
+        "question_budget_id": "efcc47697152",
+        "budget_policy": "per_question_v1",
+        "limit_usd": 0.5,
+        "operating_limit_usd": 0.45,
+        "safety_margin_usd": 0.05,
+        "committed_usd": 0.0085365,
+        "remaining_usd": 0.4414635,
+        "uncertain_entries": 0,
+        "legacy_paper_spending_usd": 0.15902775,
+        "blocked": false,
+        "stop_reason": null,
+        "ledger_path": "D:\\新建文件夹\\paper_comprehending\\output\\paper_budget.sqlite3",
+        "scope": "One user-question workflow: planning, all agents, retries and resume share the same budget ID. Other questions do not consume this limit.",
+        "estimate_only": true
+      },
+      "parent_workflow_id": "efcc47697152",
+      "question_budget_id": "efcc47697152"
+    },
+    {
+      "run_id": "b92830ef159d",
+      "stage": "evidence",
+      "model": "gpt-5.4-mini",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "claim_batch_size": 6,
+      "chunk_chars": 6000,
+      "claim_ids": [
+        "claim_000002",
+        "claim_000003",
+        "claim_000006",
+        "claim_000012",
+        "claim_000013"
+      ],
+      "search_scope": "selected_sources",
+      "source_section_ids": [
+        "S-sec-5-6"
+      ],
+      "source_element_ids": [
+        "S-sec-5-6.F1",
+        "S-sec-5-6.P1",
+        "S-sec-5-6.P2",
+        "S-sec-5-6.P3"
+      ],
+      "image_mode": "relevant",
+      "status": "completed",
+      "started_at": "2026-10-27T19:48:07.661397+00:00",
+      "finished_at": "2026-10-27T19:48:16.069464+00:00",
+      "duration_seconds": 8.407,
+      "llm_wall_time_seconds": 8.321,
+      "call_timings": [
+        {
+          "stage": "text_scan",
+          "duration_seconds": 4.408,
+          "claim_count": 5
+        },
+        {
+          "stage": "image_scan",
+          "duration_seconds": 3.913,
+          "claim_count": 5
+        }
+      ],
+      "text_scans_completed": 1,
+      "image_scans_completed": 1,
+      "new_evidence": 4,
+      "new_links": 10,
+      "unavailable_images": [],
+      "unresolved_links": [],
+      "issues": [],
+      "coverage": {
+        "text_scan_complete": true,
+        "image_scan_complete": true,
+        "image_scope": "selected_candidates_only",
+        "planned_text_scans": 1,
+        "planned_image_scans": 1
+      },
+      "api_cost_report": {
+        "currency": "USD",
+        "estimate_only": true,
+        "price_checked_on": "2026-10-24",
+        "pricing_basis": "OpenAI standard online rates applied to API-reported tokens (including image input/reasoning output, not billing data)",
+        "accounting_note": "Image input is already included in reported input tokens. Reasoning is already included in output tokens. Neither is charged a second time. Hidden SDK retries/requests without usage receipts cannot be reconciled with the invoice.",
+        "input_images": 1,
+        "reasoning_tokens": 0,
+        "failed_attempts": 0,
+        "llm_calls_recorded": 2,
+        "input_tokens": 3422,
+        "cached_input_tokens": 0,
+        "output_tokens": 767,
+        "complete": true,
+        "estimated_total_usd": 0.006018,
+        "known_cost_usd": 0.006018,
+        "unpriced_models": [],
+        "by_agent": [
+          {
+            "agent": "Evidence",
+            "llm_calls": 2,
+            "input_tokens": 3422,
+            "cached_input_tokens": 0,
+            "output_tokens": 767,
+            "estimated_cost_usd": 0.006018,
+            "known_cost_usd": 0.006018
+          }
+        ],
+        "by_model": [
+          {
+            "model": "gpt-5.4-mini-2026-03-17",
+            "llm_calls": 2,
+            "input_tokens": 3422,
+            "cached_input_tokens": 0,
+            "output_tokens": 767,
+            "estimated_cost_usd": 0.006018,
+            "known_cost_usd": 0.006018
+          }
+        ],
+        "calls": [
+          {
+            "agent": "Evidence",
+            "model": "gpt-5.4-mini-2026-03-17",
+            "response_id": "resp_081a3284ab378bf3016ae0fff887a087d28b71aaaca6171523",
+            "call_status": "returned",
+            "input_images": 0,
+            "reasoning_tokens": 0,
+            "service_tier": "default",
+            "requested_model": "gpt-5.4-mini",
+            "input_tokens": 1850,
+            "cached_input_tokens": 0,
+            "output_tokens": 387,
+            "estimated_cost_usd": 0.003129,
+            "pricing_status": "priced"
+          },
+          {
+            "agent": "Evidence",
+            "model": "gpt-5.4-mini-2026-03-17",
+            "response_id": "resp_0315272147395a21016ae0fffc1cdc87d2afa7964418a30ebd",
+            "call_status": "returned",
+            "input_images": 1,
+            "reasoning_tokens": 0,
+            "service_tier": "default",
+            "requested_model": "gpt-5.4-mini",
+            "input_tokens": 1572,
+            "cached_input_tokens": 0,
+            "output_tokens": 380,
+            "estimated_cost_usd": 0.002889,
+            "pricing_status": "priced"
+          }
+        ]
+      },
+      "budget_report": {
+        "paper_id": "acm_10_1145_3653982",
+        "question_budget_id": "efcc47697152",
+        "budget_policy": "per_question_v1",
+        "limit_usd": 0.5,
+        "operating_limit_usd": 0.45,
+        "safety_margin_usd": 0.05,
+        "committed_usd": 0.0169935,
+        "remaining_usd": 0.4330065,
+        "uncertain_entries": 0,
+        "legacy_paper_spending_usd": 0.15902775,
+        "blocked": false,
+        "stop_reason": null,
+        "ledger_path": "D:\\新建文件夹\\paper_comprehending\\output\\paper_budget.sqlite3",
+        "scope": "One user-question workflow: planning, all agents, retries and resume share the same budget ID. Other questions do not consume this limit.",
+        "estimate_only": true
+      },
+      "image_report": {
+        "mode": "image_assets_enabled",
+        "attachments_sent": 1,
+        "unique_images_sent": 1,
+        "events": [
+          {
+            "element_id": "S-sec-5-6.F1",
+            "asset_id": "A5",
+            "source_path": "assets/A5.jpg",
+            "source_sha256": "d663932cc8c93a1d0341d24901d0dc1c36ba67f95d5fc3a0836fbd52c6c051ed",
+            "sent_sha256": "d663932cc8c93a1d0341d24901d0dc1c36ba67f95d5fc3a0836fbd52c6c051ed",
+            "width": 425,
+            "height": 500,
+            "cell_id": null,
+            "conversion": null,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "request_id": "resp_0315272147395a21016ae0fffc1cdc87d2afa7964418a30ebd",
+            "status": "submitted_with_response"
+          }
+        ],
+        "note": "An attachment receipt proves which image was sent, not that every digit or plot interpretation is correct."
+      },
+      "parent_workflow_id": "efcc47697152",
+      "question_budget_id": "efcc47697152"
+    },
+    {
+      "run_id": "215c4f6ede07",
+      "stage": "coordinator",
+      "mode": "full_pipeline",
+      "workflow_policy": "unified_question_v1",
+      "budget_policy": "per_question_v1",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "user_question": "In HydraGAN's ablation study, what happens to privacy and data diversity when realism discriminators are removed, and how do the authors explain this result?",
+      "model": "gpt-5.4-mini",
+      "language": "en",
+      "image_mode": "relevant",
+      "question_limit_usd": 0.5,
+      "status": "completed",
+      "started_at": "2026-10-27T20:00:49.912133+00:00",
+      "current_phase": "answer",
+      "task_states": {
+        "t1": {
+          "claim_selection": {
+            "signature": "ad7f47a7bc9e6d35da682b5ea39d62358af7e2ba85865a6e1cf31068df1688ba",
+            "candidate_claim_ids": [
+              "claim_000001",
+              "claim_000002",
+              "claim_000003",
+              "claim_000004",
+              "claim_000005",
+              "claim_000006",
+              "claim_000007",
+              "claim_000008",
+              "claim_000009",
+              "claim_000010",
+              "claim_000011",
+              "claim_000012",
+              "claim_000013",
+              "claim_000014",
+              "claim_000015",
+              "claim_000016",
+              "claim_000017",
+              "claim_000018",
+              "claim_000019",
+              "claim_000020",
+              "claim_000021",
+              "claim_000022",
+              "claim_000023",
+              "claim_000024",
+              "claim_000025",
+              "claim_000026",
+              "claim_000027",
+              "claim_000028",
+              "claim_000029",
+              "claim_000030",
+              "claim_000031",
+              "claim_000032",
+              "claim_000033",
+              "claim_000034",
+              "claim_000035",
+              "claim_000036",
+              "claim_000037",
+              "claim_000038",
+              "claim_000039",
+              "claim_000040",
+              "claim_000041",
+              "claim_000042",
+              "claim_000043",
+              "claim_000044",
+              "claim_000045",
+              "claim_000046",
+              "claim_000047",
+              "claim_000048",
+              "claim_000049",
+              "claim_000050",
+              "claim_000051",
+              "claim_000052"
+            ],
+            "selected_claim_ids": [
+              "claim_000014",
+              "claim_000015",
+              "claim_000006",
+              "claim_000007",
+              "claim_000010",
+              "claim_000011",
+              "claim_000012",
+              "claim_000013"
+            ],
+            "not_selected_claim_ids": [
+              "claim_000001",
+              "claim_000002",
+              "claim_000003",
+              "claim_000004",
+              "claim_000005",
+              "claim_000008",
+              "claim_000009",
+              "claim_000016",
+              "claim_000017",
+              "claim_000018",
+              "claim_000019",
+              "claim_000020",
+              "claim_000021",
+              "claim_000022",
+              "claim_000023",
+              "claim_000024",
+              "claim_000025",
+              "claim_000026",
+              "claim_000027",
+              "claim_000028",
+              "claim_000029",
+              "claim_000030",
+              "claim_000031",
+              "claim_000032",
+              "claim_000033",
+              "claim_000034",
+              "claim_000035",
+              "claim_000036",
+              "claim_000037",
+              "claim_000038",
+              "claim_000039",
+              "claim_000040",
+              "claim_000041",
+              "claim_000042",
+              "claim_000043",
+              "claim_000044",
+              "claim_000045",
+              "claim_000046",
+              "claim_000047",
+              "claim_000048",
+              "claim_000049",
+              "claim_000050",
+              "claim_000051",
+              "claim_000052"
+            ],
+            "page_decisions": [
+              {
+                "candidate_claim_ids": [
+                  "claim_000001",
+                  "claim_000002",
+                  "claim_000003",
+                  "claim_000004",
+                  "claim_000005",
+                  "claim_000006",
+                  "claim_000007",
+                  "claim_000008",
+                  "claim_000009",
+                  "claim_000010",
+                  "claim_000011",
+                  "claim_000012",
+                  "claim_000013",
+                  "claim_000014",
+                  "claim_000015",
+                  "claim_000016",
+                  "claim_000017",
+                  "claim_000018",
+                  "claim_000019",
+                  "claim_000020",
+                  "claim_000021",
+                  "claim_000022",
+                  "claim_000023",
+                  "claim_000024",
+                  "claim_000025",
+                  "claim_000026",
+                  "claim_000027",
+                  "claim_000028",
+                  "claim_000029",
+                  "claim_000030",
+                  "claim_000031",
+                  "claim_000032",
+                  "claim_000033",
+                  "claim_000034",
+                  "claim_000035",
+                  "claim_000036",
+                  "claim_000037",
+                  "claim_000038",
+                  "claim_000039",
+                  "claim_000040",
+                  "claim_000041",
+                  "claim_000042",
+                  "claim_000043",
+                  "claim_000044",
+                  "claim_000045",
+                  "claim_000046",
+                  "claim_000047",
+                  "claim_000048",
+                  "claim_000049",
+                  "claim_000050",
+                  "claim_000051",
+                  "claim_000052"
+                ],
+                "selected_claim_ids": [
+                  "claim_000014",
+                  "claim_000015",
+                  "claim_000006",
+                  "claim_000007",
+                  "claim_000010",
+                  "claim_000011",
+                  "claim_000012",
+                  "claim_000013"
+                ],
+                "reason": "These claims directly answer the ablation-study question: they state that removing realism agents/discriminators improves privacy and data diversity, and they provide the authors’ explanation that realism, privacy, and diversity form cooperative/competitive discriminator teams; removing realism makes it easier to obscure sensitive attributes and satisfy diversity goals because the generator no longer needs to produce realistic data. Claims 6–7 and 10–13 add the surrounding ablation interpretation about how performance shifts when discriminators are removed and that the corresponding metric collapses while other objectives can improve, which is relevant context for explaining the result."
+              }
+            ]
+          },
+          "selected_claim_ids": [
+            "claim_000014",
+            "claim_000015",
+            "claim_000006",
+            "claim_000007",
+            "claim_000010",
+            "claim_000011",
+            "claim_000012",
+            "claim_000013"
+          ],
+          "coverage": {
+            "claim_windows": 13,
+            "pending_claim_windows": [],
+            "evidence_search_by_claim": {
+              "claim_000014": {
+                "status": "not_scanned"
+              },
+              "claim_000015": {
+                "status": "not_scanned"
+              },
+              "claim_000006": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              },
+              "claim_000007": {
+                "status": "not_scanned"
+              },
+              "claim_000010": {
+                "status": "not_scanned"
+              },
+              "claim_000011": {
+                "status": "not_scanned"
+              },
+              "claim_000012": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              },
+              "claim_000013": {
+                "status": "completed",
+                "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+                "model": "gpt-5.4-mini",
+                "search_scope": "selected_sources",
+                "source_section_ids": [
+                  "S-sec-5-6"
+                ],
+                "source_element_ids": [
+                  "S-sec-5-6.F1",
+                  "S-sec-5-6.P1",
+                  "S-sec-5-6.P2",
+                  "S-sec-5-6.P3"
+                ],
+                "image_mode": "relevant",
+                "text_scan_complete": true,
+                "image_scan_complete": true,
+                "run_id": "b92830ef159d"
+              }
+            },
+            "scope_is_user_locked": false,
+            "search_is_not_proof_of_absence": true
+          },
+          "selected_evidence_ids": [
+            "evidence_000002",
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "missing_information": [],
+          "collection_ready": true,
+          "collection_reviews": [
+            {
+              "ready_for_requested_operation": true,
+              "selected_evidence_ids": [
+                "evidence_000002",
+                "evidence_000003",
+                "evidence_000004"
+              ],
+              "missing_information": [],
+              "additional_section_ids": [],
+              "additional_element_ids": [],
+              "search_whole_paper": false,
+              "collection_reason": "The collection already contains the ablation study paragraph stating that removing a discriminator decreases the corresponding objective, while the remaining objectives can increase; the follow-up paragraph explains that removing realism agents improves privacy performance and data diversity because the model no longer needs to generate realistic data, making it easier to obscure sensitive attributes and satisfy diversity goals. The figure for the leave-one-discriminator-out ablation is also present and relevant for the requested cross-section explanation."
+            }
+          ],
+          "mapping_ids": [
+            "mapping_000002",
+            "mapping_000003"
+          ],
+          "analyzed_claim_ids": [
+            "claim_000014",
+            "claim_000015",
+            "claim_000006",
+            "claim_000007",
+            "claim_000010",
+            "claim_000011",
+            "claim_000012",
+            "claim_000013"
+          ],
+          "deferred_claim_ids": []
+        }
+      },
+      "stage_results": [
+        {
+          "stage": "claim",
+          "exit_code": 0,
+          "child_run_ids": [
+            "510fb48501af"
+          ],
+          "status": "completed",
+          "time": "2026-10-27T20:01:08.073108+00:00"
+        }
+      ],
+      "issues": [],
+      "created_mapping_ids": [
+        "mapping_000002",
+        "mapping_000003"
+      ],
+      "used_mapping_ids": [
+        "mapping_000002",
+        "mapping_000003"
+      ],
+      "answer": {
+        "answer": "When the realism discriminators are removed, the ablation study reports that privacy performance improves and data diversity improves as well. The authors explain this as the expected tradeoff: if the model no longer has to generate highly realistic data, it becomes easier to obscure sensitive attributes and to satisfy diversity goals. They also frame this as part of a broader leave-one-discriminator-out pattern, where removing a discriminator hurts the objective that discriminator was responsible for, while the remaining objectives can improve because HydraGAN balances multiple objectives.",
+        "used_source_ids": [
+          "claim_000015",
+          "claim_000006",
+          "claim_000007",
+          "claim_000014",
+          "claim_000013",
+          "evidence_000003",
+          "evidence_000002",
+          "evidence_000004",
+          "mapping_000002"
+        ],
+        "limitations": [
+          "The source gives this as the authors' interpretation of the ablation results, not as a separately validated causal proof.",
+          "The excerpt does not provide the exact numeric privacy/diversity changes in the quoted text."
+        ]
+      },
+      "answer_status": "generated",
+      "question_budget_id": "215c4f6ede07",
+      "task_plan": {
+        "paper_id": "acm_10_1145_3653982",
+        "user_message": "In HydraGAN's ablation study, what happens to privacy and data diversity when realism discriminators are removed, and how do the authors explain this result?",
+        "language": "en",
+        "tasks": [
+          {
+            "task_id": "t1",
+            "intent": "cross_section",
+            "goal": "Explain what the ablation study reports about privacy and diversity when realism discriminators are removed, and summarize the authors' explanation for why this happens.",
+            "scope": {
+              "mode": "section",
+              "section_ids": [
+                "S-sec-5-6",
+                "S-sec-3-2-1",
+                "S-sec-3-2-2",
+                "S-sec-3-2-3",
+                "S-sec-3-2-4"
+              ],
+              "element_ids": [
+                "S-sec-5-6.F1"
+              ],
+              "claim_ids": [
+                "claim_000014",
+                "claim_000015",
+                "claim_000006",
+                "claim_000007",
+                "claim_000010",
+                "claim_000011",
+                "claim_000012",
+                "claim_000013"
+              ],
+              "user_locked": false
+            },
+            "evidence_scope": "related_sections",
+            "mapping_focus": "method_result_relationship",
+            "output_style": "structured"
+          }
+        ]
+      },
+      "answer_material_ids": [
+        "claim_000014",
+        "claim_000015",
+        "claim_000006",
+        "claim_000007",
+        "claim_000010",
+        "claim_000011",
+        "claim_000012",
+        "claim_000013",
+        "evidence_000002",
+        "evidence_000003",
+        "evidence_000004",
+        "mapping_000002",
+        "mapping_000003"
+      ],
+      "unfinished_tasks": [],
+      "answer_reference_check": {
+        "mentioned_ids": [],
+        "unknown_ids": [],
+        "references_recognized": false
+      },
+      "answer_available": true,
+      "finished_at": "2026-10-27T20:01:25.081939+00:00",
+      "duration_seconds_last_attempt": 35.171,
+      "attempt_cost_reports": [
+        {
+          "currency": "USD",
+          "estimate_only": true,
+          "price_checked_on": "2026-10-24",
+          "pricing_basis": "OpenAI standard online rates applied to API-reported tokens (including image input/reasoning output, not billing data)",
+          "accounting_note": "Image input is already included in reported input tokens. Reasoning is already included in output tokens. Neither is charged a second time. Hidden SDK retries/requests without usage receipts cannot be reconciled with the invoice.",
+          "input_images": 0,
+          "reasoning_tokens": 0,
+          "failed_attempts": 0,
+          "llm_calls_recorded": 6,
+          "input_tokens": 38785,
+          "cached_input_tokens": 2176,
+          "output_tokens": 2101,
+          "complete": true,
+          "estimated_total_usd": 0.03707445,
+          "known_cost_usd": 0.03707445,
+          "unpriced_models": [],
+          "by_agent": [
+            {
+              "agent": "Coordinator",
+              "llm_calls": 4,
+              "input_tokens": 29059,
+              "cached_input_tokens": 0,
+              "output_tokens": 747,
+              "estimated_cost_usd": 0.02515575,
+              "known_cost_usd": 0.02515575
+            },
+            {
+              "agent": "Mapping",
+              "llm_calls": 2,
+              "input_tokens": 9726,
+              "cached_input_tokens": 2176,
+              "output_tokens": 1354,
+              "estimated_cost_usd": 0.0119187,
+              "known_cost_usd": 0.0119187
+            }
+          ],
+          "by_model": [
+            {
+              "model": "gpt-5.4-mini-2026-03-17",
+              "llm_calls": 6,
+              "input_tokens": 38785,
+              "cached_input_tokens": 2176,
+              "output_tokens": 2101,
+              "estimated_cost_usd": 0.03707445,
+              "known_cost_usd": 0.03707445
+            }
+          ],
+          "calls": [
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_0ff585c15cf2c97a016ae102f22ed887d29a80c90a4c11ed8e",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 6717,
+              "cached_input_tokens": 0,
+              "output_tokens": 209,
+              "estimated_cost_usd": 0.00597825,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_0f707f97f6a44231016ae10304223087d2805e99d5976b8b40",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 8183,
+              "cached_input_tokens": 0,
+              "output_tokens": 175,
+              "estimated_cost_usd": 0.00692475,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_0e6b6ada2759a2ec016ae10306fac887d285868802f2316cac",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 8651,
+              "cached_input_tokens": 0,
+              "output_tokens": 153,
+              "estimated_cost_usd": 0.00717675,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Mapping",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_001fb9baa058c8ad016ae10308654087d2acbd2c89d83ba959",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 5076,
+              "cached_input_tokens": 0,
+              "output_tokens": 781,
+              "estimated_cost_usd": 0.0073215,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Mapping",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_076e4786bc07371c016ae1030e0a9887d2bf005a14f1608c64",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 4650,
+              "cached_input_tokens": 2176,
+              "output_tokens": 573,
+              "estimated_cost_usd": 0.0045972,
+              "pricing_status": "priced"
+            },
+            {
+              "agent": "Coordinator",
+              "model": "gpt-5.4-mini-2026-03-17",
+              "response_id": "resp_0068d2e5387836a5016ae10312fa9087d2aa5cf05148f0d7be",
+              "call_status": "returned",
+              "input_images": 0,
+              "reasoning_tokens": 0,
+              "service_tier": "default",
+              "requested_model": "gpt-5.4-mini",
+              "input_tokens": 5508,
+              "cached_input_tokens": 0,
+              "output_tokens": 210,
+              "estimated_cost_usd": 0.005076,
+              "pricing_status": "priced"
+            }
+          ]
+        }
+      ],
+      "budget_report": {
+        "paper_id": "acm_10_1145_3653982",
+        "question_budget_id": "215c4f6ede07",
+        "budget_policy": "per_question_v1",
+        "limit_usd": 0.5,
+        "operating_limit_usd": 0.45,
+        "safety_margin_usd": 0.05,
+        "committed_usd": 0.05012745,
+        "remaining_usd": 0.39987255,
+        "uncertain_entries": 0,
+        "legacy_paper_spending_usd": 0.15902775,
+        "blocked": false,
+        "stop_reason": null,
+        "ledger_path": "D:\\新建文件夹\\paper_comprehending\\output\\paper_budget.sqlite3",
+        "scope": "One user-question workflow: planning, all agents, retries and resume share the same budget ID. Other questions do not consume this limit.",
+        "estimate_only": true
+      },
+      "answer_file": "D:\\新建文件夹\\paper_comprehending\\data\\analysis\\acm_10_1145_3653982\\answer_215c4f6ede07.md"
+    },
+    {
+      "run_id": "510fb48501af",
+      "stage": "claim",
+      "model": "gpt-5.4-mini",
+      "sections": [
+        "S-sec-3-2-1",
+        "S-sec-3-2-2",
+        "S-sec-3-2-3",
+        "S-sec-3-2-4",
+        "S-sec-5-6"
+      ],
+      "element_ids": [],
+      "status": "completed",
+      "new_claims": 37,
+      "processed_windows": 10,
+      "started_at": "2026-10-27T20:00:52.105251+00:00",
+      "finished_at": "2026-10-27T20:01:07.967923+00:00",
+      "duration_seconds": 15.863,
+      "llm_wall_time_seconds": 15.822,
+      "api_cost_report": {
+        "currency": "USD",
+        "estimate_only": true,
+        "price_checked_on": "2026-10-24",
+        "pricing_basis": "OpenAI standard online rates applied to API-reported tokens (including image input/reasoning output, not billing data)",
+        "accounting_note": "Image input is already included in reported input tokens. Reasoning is already included in output tokens. Neither is charged a second time. Hidden SDK retries/requests without usage receipts cannot be reconciled with the invoice.",
+        "input_images": 0,
+        "reasoning_tokens": 0,
+        "failed_attempts": 0,
+        "llm_calls_recorded": 4,
+        "input_tokens": 3982,
+        "cached_input_tokens": 0,
+        "output_tokens": 2237,
+        "complete": true,
+        "estimated_total_usd": 0.013053,
+        "known_cost_usd": 0.013053,
+        "unpriced_models": [],
+        "by_agent": [
+          {
+            "agent": "Claim",
+            "llm_calls": 4,
+            "input_tokens": 3982,
+            "cached_input_tokens": 0,
+            "output_tokens": 2237,
+            "estimated_cost_usd": 0.013053,
+            "known_cost_usd": 0.013053
+          }
+        ],
+        "by_model": [
+          {
+            "model": "gpt-5.4-mini-2026-03-17",
+            "llm_calls": 4,
+            "input_tokens": 3982,
+            "cached_input_tokens": 0,
+            "output_tokens": 2237,
+            "estimated_cost_usd": 0.013053,
+            "known_cost_usd": 0.013053
+          }
+        ],
+        "calls": [
+          {
+            "agent": "Claim",
+            "model": "gpt-5.4-mini-2026-03-17",
+            "response_id": "resp_01aa1b7b804314c6016ae102f4ca2087d282eccf72f16139eb",
+            "call_status": "returned",
+            "input_images": 0,
+            "reasoning_tokens": 0,
+            "service_tier": "default",
+            "requested_model": "gpt-5.4-mini",
+            "input_tokens": 946,
+            "cached_input_tokens": 0,
+            "output_tokens": 406,
+            "estimated_cost_usd": 0.0025365,
+            "pricing_status": "priced"
+          },
+          {
+            "agent": "Claim",
+            "model": "gpt-5.4-mini-2026-03-17",
+            "response_id": "resp_0c69bddeb657146e016ae102f7dbd087d29cf7b1d8644eeb0a",
+            "call_status": "returned",
+            "input_images": 0,
+            "reasoning_tokens": 0,
+            "service_tier": "default",
+            "requested_model": "gpt-5.4-mini",
+            "input_tokens": 1181,
+            "cached_input_tokens": 0,
+            "output_tokens": 952,
+            "estimated_cost_usd": 0.00516975,
+            "pricing_status": "priced"
+          },
+          {
+            "agent": "Claim",
+            "model": "gpt-5.4-mini-2026-03-17",
+            "response_id": "resp_0f33f8ac10414286016ae102fde9a487d29aa0aa72ef42c584",
+            "call_status": "returned",
+            "input_images": 0,
+            "reasoning_tokens": 0,
+            "service_tier": "default",
+            "requested_model": "gpt-5.4-mini",
+            "input_tokens": 1151,
+            "cached_input_tokens": 0,
+            "output_tokens": 745,
+            "estimated_cost_usd": 0.00421575,
+            "pricing_status": "priced"
+          },
+          {
+            "agent": "Claim",
+            "model": "gpt-5.4-mini-2026-03-17",
+            "response_id": "resp_0a7aeb2c4306241e016ae103025bb087d2868b7a504e6e3617",
+            "call_status": "returned",
+            "input_images": 0,
+            "reasoning_tokens": 0,
+            "service_tier": "default",
+            "requested_model": "gpt-5.4-mini",
+            "input_tokens": 704,
+            "cached_input_tokens": 0,
+            "output_tokens": 134,
+            "estimated_cost_usd": 0.001131,
+            "pricing_status": "priced"
+          }
+        ]
+      },
+      "budget_report": {
+        "paper_id": "acm_10_1145_3653982",
+        "question_budget_id": "215c4f6ede07",
+        "budget_policy": "per_question_v1",
+        "limit_usd": 0.5,
+        "operating_limit_usd": 0.45,
+        "safety_margin_usd": 0.05,
+        "committed_usd": 0.01903125,
+        "remaining_usd": 0.43096875,
+        "uncertain_entries": 0,
+        "legacy_paper_spending_usd": 0.15902775,
+        "blocked": false,
+        "stop_reason": null,
+        "ledger_path": "D:\\新建文件夹\\paper_comprehending\\output\\paper_budget.sqlite3",
+        "scope": "One user-question workflow: planning, all agents, retries and resume share the same budget ID. Other questions do not consume this limit.",
+        "estimate_only": true
+      },
+      "parent_workflow_id": "215c4f6ede07",
+      "question_budget_id": "215c4f6ede07"
+    }
+  ],
+  "summaries": {},
+  "mappings": {
+    "mapping_000001": {
+      "mapping_id": "mapping_000001",
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "language": "en",
+      "analysis_focus": "claim_support",
+      "input_signature": "ea20772dd857616fab8ee6a53073a9775b06f8ff5d0d6ad47928caee56f5f7ca",
+      "target_claim_ids": [
+        "claim_000002",
+        "claim_000003",
+        "claim_000006",
+        "claim_000012",
+        "claim_000013"
+      ],
+      "context_claim_ids": [
+        "claim_000002",
+        "claim_000003",
+        "claim_000006",
+        "claim_000012",
+        "claim_000013"
+      ],
+      "available_evidence_ids": [
+        "evidence_000001",
+        "evidence_000002",
+        "evidence_000003",
+        "evidence_000004"
+      ],
+      "claim_analyses": [
+        {
+          "claim_id": "claim_000002",
+          "explanation": "The supplied material explicitly states that the study investigates the impact of removing individual discriminators on HydraGAN performance. This is grounded in the ablation-study paragraph and reinforced by Figure 4, which compares HydraGAN with all discriminators against leave-one-discriminator-out variants across datasets. Together, these records support that the analysis setup is a leave-one-out discriminator ablation on performance.",
+          "evidence_ids_used": [
+            "evidence_000001",
+            "evidence_000004"
+          ],
+          "qualifications": []
+        },
+        {
+          "claim_id": "claim_000003",
+          "explanation": "The paper states as a hypothesis that removing a single discriminator will lessen HydraGAN’s performance on the corresponding objective. This is directly expressed in the ablation-study paragraph. Figure 4 is consistent with that setup because it includes the leave-one-out variants used to test this hypothesis, but the hypothesis itself is an author-stated expectation rather than an observed result.",
+          "evidence_ids_used": [
+            "evidence_000001",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "This is a stated hypothesis, not a confirmed result."
+          ]
+        },
+        {
+          "claim_id": "claim_000006",
+          "explanation": "The results paragraph explicitly reports that when a discriminator was removed, performance for the corresponding objective decreased. This directly supports the claim as an observed result from the ablation study. Figure 4 provides the comparative visual context for those leave-one-out conditions, showing that the reported decrease is part of the experimental comparison.",
+          "evidence_ids_used": [
+            "evidence_000002",
+            "evidence_000004"
+          ],
+          "qualifications": []
+        },
+        {
+          "claim_id": "claim_000012",
+          "explanation": "The supplied text states that removal of a discriminator forces a collapse in performance for the corresponding metric. This is a stronger phrasing of the same leave-one-out effect described in the results paragraph, which says performance for the corresponding objective decreased. Figure 4 is consistent with that relationship by showing performance changes under discriminator removal. However, the wording “forces a collapse” is qualitative and stronger than a simple decrease, so it should be read as the authors’ characterization of the observed drop rather than a separately quantified threshold.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000002",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "The claim uses qualitative language (“collapse”) rather than a numerical criterion."
+          ]
+        },
+        {
+          "claim_id": "claim_000013",
+          "explanation": "The supplied paragraph states that the results highlight cooperative and competitive discriminator “teams,” and it immediately follows with the identification of cooperative discriminator groups. Figure 4 shows multiple leave-one-discriminator-out variants across several performance axes, which is compatible with the idea that discriminators interact in structured ways. The evidence therefore supports the authors’ interpretation that discriminator roles are not independent but organized into interacting groups.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "The term “teams” is an interpretive label from the authors; the supplied material does not independently verify a formal grouping criterion beyond the described analysis."
+          ]
+        }
+      ],
+      "cross_claim_explanation": "Claims 000002, 000003, 000006, and 000012 form a method-to-result chain around the same ablation study: the paper says it investigates removing individual discriminators, hypothesizes that this will reduce performance on the corresponding objective, and then reports that the objective performance decreases or “collapses” when a discriminator is removed. Claim 000013 extends that same analysis from a simple performance drop to an interpretation about cooperative and competitive discriminator groups, using the ablation patterns shown in Figure 4 as contextual support.",
+      "missing_claim_ids": [],
+      "unexpected_claim_ids": [],
+      "unresolved_evidence_ids": [],
+      "created_run_id": "efcc47697152",
+      "created_at": "2026-10-27T19:48:23.271984+00:00"
+    },
+    "mapping_000002": {
+      "mapping_id": "mapping_000002",
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "language": "en",
+      "analysis_focus": "method_result_relationship",
+      "input_signature": "2e8b619309e882fe02c30673c1b72c3f14a3580cca131a6dbda4f051696370ff",
+      "target_claim_ids": [
+        "claim_000014",
+        "claim_000015",
+        "claim_000006",
+        "claim_000007",
+        "claim_000010"
+      ],
+      "context_claim_ids": [
+        "claim_000014",
+        "claim_000015",
+        "claim_000006",
+        "claim_000007",
+        "claim_000010",
+        "claim_000011",
+        "claim_000012",
+        "claim_000013"
+      ],
+      "available_evidence_ids": [
+        "evidence_000002",
+        "evidence_000003",
+        "evidence_000004"
+      ],
+      "claim_analyses": [
+        {
+          "claim_id": "claim_000014",
+          "explanation": "The supplied paragraph explicitly states that three cooperative discriminator groups emerged, divided by what each group emphasizes: data realism (point and distribution realism, target accuracy), privacy preservation (privacy), and externally imposed distribution constraints (diversity). This is a direct summary of the grouping outcome reported in the discussion of the ablation analysis. The figure showing leave-one-discriminator-out variants across datasets is consistent with the broader setting in which different discriminators are compared, but the claim itself is already directly supported by the paragraph text.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "qualifications": []
+        },
+        {
+          "claim_id": "claim_000015",
+          "explanation": "The paragraph says that removing any or all of the realism agents allows privacy performance to improve as well as data diversity, and that this confirms the intuition that removing the need to generate realistic data makes it easier to obscure sensitive attributes and achieve diversity goals. This is a direct author interpretation of the ablation outcome described in the same section. It is supported by the reported leave-one-discriminator-out comparison in Figure 4, which shows performance changes under discriminator removal, but the claim should be read as the authors' stated interpretation of those results rather than an independently established causal proof.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "The statement is interpretive: it reflects the authors' conclusion from the ablation results rather than a separately validated causal mechanism."
+          ]
+        },
+        {
+          "claim_id": "claim_000006",
+          "explanation": "The results paragraph explicitly says that when a discriminator was removed from the system, performance for the corresponding objective decreased. The ablation figure compares HydraGAN with all discriminators against leave-one-discriminator-out variants, so it directly matches the described condition of discriminator removal and the resulting drop in the targeted objective.",
+          "evidence_ids_used": [
+            "evidence_000002",
+            "evidence_000004"
+          ],
+          "qualifications": []
+        },
+        {
+          "claim_id": "claim_000007",
+          "explanation": "The same ablation paragraph states that because HydraGAN balances multiple objectives, performance for the remaining objectives correspondingly increased when a discriminator was removed. This is a direct textual relationship in the reported results: the loss on the targeted objective is paired with gains on other objectives in the leave-one-out setting. The figure provides the comparative context for these multi-objective tradeoffs across datasets.",
+          "evidence_ids_used": [
+            "evidence_000002",
+            "evidence_000004"
+          ],
+          "qualifications": []
+        },
+        {
+          "claim_id": "claim_000010",
+          "explanation": "The paragraph says the results indicate the desired relationship between discriminator goals and the measures used to assess performance for that goal. In context, this means the evaluation metrics move in the intended direction when the relevant discriminator is present or removed, as shown by the ablation analysis and the associated performance curves. The claim is therefore supported as an interpretation of the observed alignment between goals and metrics in the reported results.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "The phrase 'desired relationship' is an authorial interpretation of the observed metric behavior, not a separately quantified statistical test."
+          ]
+        }
+      ],
+      "cross_claim_explanation": "Claims 000006 and 000007 describe the core ablation tradeoff: removing a discriminator hurts its own objective while improving remaining objectives. Claims 000010, 000014, and 000015 elaborate on how those same ablation results are interpreted: the metrics align with discriminator goals, the discriminators can be grouped by the objective family they emphasize, and realism agents appear to trade off against privacy and diversity in the reported analysis. Together, the claims form a consistent method-result relationship centered on the leave-one-discriminator-out study shown in Figure 4.",
+      "missing_claim_ids": [],
+      "unexpected_claim_ids": [],
+      "unresolved_evidence_ids": [],
+      "created_run_id": "215c4f6ede07",
+      "created_at": "2026-10-27T20:01:18.125822+00:00"
+    },
+    "mapping_000003": {
+      "mapping_id": "mapping_000003",
+      "status": "completed",
+      "paper_revision": "sha256:0b494e16f923b6ec71ea9c6acca409fec7f00d5103321f6c8b4b1a65bc082254",
+      "model": "gpt-5.4-mini",
+      "language": "en",
+      "analysis_focus": "method_result_relationship",
+      "input_signature": "3202a48246ddd9791d2f1e60bb4562f05510662c3ff115013cbb56bd18867dd3",
+      "target_claim_ids": [
+        "claim_000011",
+        "claim_000012",
+        "claim_000013"
+      ],
+      "context_claim_ids": [
+        "claim_000014",
+        "claim_000015",
+        "claim_000006",
+        "claim_000007",
+        "claim_000010",
+        "claim_000011",
+        "claim_000012",
+        "claim_000013"
+      ],
+      "available_evidence_ids": [
+        "evidence_000002",
+        "evidence_000003",
+        "evidence_000004"
+      ],
+      "claim_analyses": [
+        {
+          "claim_id": "claim_000011",
+          "explanation": "The supplied paragraph explicitly states that 'The shape of the performance curve shifts with these changes in the discriminator space.' This is directly tied to the ablation analysis in Figure 4, where different leave-one-discriminator-out settings change the performance pattern across objectives. Evidence 000003 states the curve shape shifts under discriminator-space changes, and evidence 000004 shows multiple leave-one-out variants across datasets, which is consistent with that statement.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "The source describes a shift in the performance curve shape, but does not quantify the shift in the quoted text itself."
+          ]
+        },
+        {
+          "claim_id": "claim_000012",
+          "explanation": "The paragraph explicitly says 'Removal of a discriminator forces a collapse in performance for the corresponding metric.' Evidence 000003 states this directly. Evidence 000004 is relevant because Figure 4 compares HydraGAN with all discriminators against leave-one-discriminator-out variants, which is the same experimental setup implied by the claim. The claim is therefore supported as a report of the leave-one-out ablation result for the corresponding metric.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "The wording 'forces a collapse' is strong, but the available excerpt does not provide the numeric magnitude of the collapse here."
+          ]
+        },
+        {
+          "claim_id": "claim_000013",
+          "explanation": "The text explicitly says that the analysis 'highlight[s] the cooperative and competitive discriminator “teams.”' Evidence 000003 contains that statement and then immediately identifies 'Three cooperative discriminator groups' based on the goals they emphasize: realism, privacy preservation, and externally imposed distribution constraints. Evidence 000004 shows multiple leave-one-discriminator-out variants, which provides the broader comparative context for discussing interactions among discriminator roles. Together, these records support the interpretation that the ablation analysis reveals grouped roles with cooperative and competitive relationships among discriminators.",
+          "evidence_ids_used": [
+            "evidence_000003",
+            "evidence_000004"
+          ],
+          "qualifications": [
+            "The source names three cooperative groups, but the precise structure of the 'competitive' teams is not fully detailed in the quoted excerpt."
+          ]
+        }
+      ],
+      "cross_claim_explanation": "Claims 000011 and 000012 describe the same ablation-driven pattern from different angles: 000011 focuses on the changing shape of the performance curve, while 000012 states the stronger result that removing a discriminator collapses the corresponding metric. Claim 000013 builds on this shared ablation context by interpreting those changes as evidence of cooperative and competitive discriminator groupings. All three are grounded in the same leave-one-discriminator-out comparison shown in Figure 4 and described in the paragraph text.",
+      "missing_claim_ids": [],
+      "unexpected_claim_ids": [],
+      "unresolved_evidence_ids": [],
+      "created_run_id": "215c4f6ede07",
+      "created_at": "2026-10-27T20:01:22.985810+00:00"
+    }
+  }
+}
